@@ -16,7 +16,11 @@ export function Header() {
         <a href="#">Tintas</a>
         <a href="#">Outros</a>
       </nav>
-
+      
+      <div className={style.searchBar}>
+        <input type="text" placeholder="Pesquisar..."/>
+      </div>
+      
     </header>
   )
 }
