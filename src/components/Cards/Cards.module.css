@@ -1,0 +1,19 @@
+.cards{
+  background-color: white;
+  max-width: 200px;
+
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cards img{
+  width: 200px;
+  height: 200px;
+}
+
+.productTitle{
+  margin: 8px 8px 0 8px;
+  padding: 8px;
+
+  border-top: 1px solid var(--gray-200);
+}
